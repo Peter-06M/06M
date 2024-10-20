@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    margin-bottom:50px;
+    
+}
+
+
+
+nav ul{
+    display: flex;
+    list-style: none;
+    background: #f89372;
+    padding: 0px 15px 10px 15px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    
+}
+nav>ul>li{
+    font-size: 27px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-inline: auto;
+    margin-bottom: 15px;
+    padding: 20px 25px 15px 25px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    transition: all .2s;
+    
+
+}
+nav>ul>li>a{
+    text-decoration: none;
+    color: #fff2de;
+
+    
+}
+nav>ul>li:hover{
+    background: #f0a389 ;
+    font-size: 1.9rem;
+
+}
+
+
+.description{
+    display: flex;
+    align-items: center;
+    
+}
+
+img.avatar{
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.5);
+    border-radius: 40px;
+    margin-right: 40px ;
+}
+
+hr{
+    margin: 15px 0px 15px 0px;
+}
+body{
+    font-size: 18px;
+    font-family: "Roboto";
+    font-weight: normal;
+    color: #0F141E;
+    background: #fff2de;
+    padding: 0 80px;
+    
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.info-text{
+    font-weight: bold;
+    font-style: italic;
+    line-height: 120%;
+}
+
+.hobby{
+    background: #f89372;
+    border-radius: 20px;
+    padding: 15px; 
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.5);
+}
+.hobby>ol{
+    padding-left: 20px;
+}
+
+.old{
+    background: #9bfdf5;
+    border: 2px solid #9bfdf5;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.old>table>th , td {
+    width: 150px; /* Устанавливает ширину всех ячеек таблицы */
+}
+
+.btn{
+    font-family: inherit;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: #0F141E;
+    color: #fff2de;
+    cursor: pointer;
+    border: none;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.5);
+    transition: all .2s;
+    
+}
+
+.btn:hover{
+    opacity: 0.8;
+    text-align: left;
+    font-size: 1rem;
+}
+
+.link{
+    font-family: inherit;
+    text-decoration: none;
+    color: rgb(253, 202, 108);
+    transition: all .2s;
+
+}
+.link:hover{
+    font-size: 1.3rem;
+    color: orange;
+    
+}
+
+.form{
+    margin: auto;
+    max-width: 300px;
+}
+div.form * {
+    margin: 2px;
+
+}
+
+.form>.form-group>input{
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+.form>.form-group>textarea{
+    border: none;
+    background: transparent;
+    border: 1px solid black;
+    outline: none;
+}
